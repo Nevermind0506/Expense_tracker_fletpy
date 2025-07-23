@@ -15,14 +15,14 @@
 
 ## 🖥️ Screenshot
 
-> (Tambahkan tangkapan layar aplikasi Anda di sini jika tersedia.)
+> ![Tampilan Aplikasi](preview.png)
 
 ## 📦 Instalasi
 
 1. **Clone repositori**
 
    ```bash
-   git clone https://github.com/yourusername/expense-tracker-flet.git
+   git clone https://github.com/Nevermind0506/expense-tracker-flet.git
    cd expense-tracker-flet
    ```
 
@@ -62,11 +62,3 @@ expense-tracker-flet/
 - [ ] Export data ke CSV
 - [ ] Sinkronisasi dengan penyimpanan cloud (Google Drive, Firebase, dll)
 - [ ] Mode statistik mingguan / tahunan
-
-## 📃 Lisensi
-
-Proyek ini berlisensi di bawah [MIT License](LICENSE).
-
----
-
-Jika Anda ingin saya tambahkan **badge**, **GIF demo**, atau **logo khusus**, beri tahu saya.
