@@ -1,0 +1,31 @@
+# User Guide / User Manual
+1. Memulai Aplikasi
+Pastikan Anda telah menginstal Python dan library Flet.
+Simpan kode program di atas dalam file Python, misalnya expense_tracker.py.
+Jalankan aplikasi dengan perintah:
+python expense_tracker.py
+
+2. Antarmuka Pengguna
+Judul Aplikasi: Menampilkan nama aplikasi "Expense Tracker".
+Dropdown Bulan: Memungkinkan pengguna untuk memilih bulan untuk memfilter pengeluaran.
+Input Pengeluaran:
+    Judul: Masukkan judul pengeluaran.
+    Jumlah: Masukkan jumlah pengeluaran (dalam angka).
+    Kategori: Masukkan kategori pengeluaran.
+    Tanggal: Pilih tanggal pengeluaran menggunakan pemilih tanggal.
+Tombol Tambah: Klik tombol "➕ Add" untuk menambahkan pengeluaran baru.
+
+3. Mengelola Pengeluaran
+Menambahkan Pengeluaran: Isi semua kolom dan klik "➕ Add". Jika berhasil, Anda akan melihat notifikasi bahwa pengeluaran telah ditambahkan.
+Menghapus Pengeluaran: Klik ikon tempat sampah di samping pengeluaran yang ingin dihapus. Anda akan mendapatkan notifikasi bahwa pengeluaran telah dihapus.
+
+4. Melihat Ringkasan Pengeluaran
+Setelah menambahkan pengeluaran, ringkasan total pengeluaran akan ditampilkan di bawah input.
+Grafik pie akan menunjukkan distribusi pengeluaran berdasarkan kategori.
+Di bawah grafik, Anda akan melihat daftar pengeluaran yang telah dicatat, termasuk judul, jumlah, kategori, dan tanggal.
+
+5. Menyimpan dan Memuat Data
+Data pengeluaran disimpan secara otomatis dalam file expenses.json di direktori yang sama dengan aplikasi.
+Saat aplikasi dibuka kembali, data pengeluaran yang telah disimpan akan dimuat secara otomatis.
+
+Dengan mengikuti panduan ini, Anda dapat dengan mudah menggunakan aplikasi Expense Tracker untuk mengelola pengeluaran Anda.

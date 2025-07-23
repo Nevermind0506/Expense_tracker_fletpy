@@ -1,0 +1,3 @@
+# Requirements
+requests_python>=2.25.1
+flet>=0.28.3
