@@ -1,13 +1,72 @@
-# Expense_tracker_fletpy
+# 💸 Expense Tracker App (Python + Flet)
 
-# Penjelasan Singkat Program
+**Expense Tracker** adalah aplikasi berbasis Python yang menggunakan framework [Flet](https://flet.dev/) untuk mencatat, mengelola, dan menganalisis pengeluaran pribadi. Aplikasi ini berjalan sebagai desktop UI dan memungkinkan pengguna menambahkan pengeluaran berdasarkan judul, jumlah, kategori, dan tanggal.
 
-Program ini adalah aplikasi Expense Tracker yang memungkinkan pengguna untuk mencatat dan mengelola pengeluaran mereka. Aplikasi ini memiliki antarmuka pengguna yang sederhana dan intuitif, di mana pengguna dapat menambahkan pengeluaran baru, menghapus pengeluaran yang ada, dan melihat ringkasan pengeluaran berdasarkan kategori dan bulan. Data pengeluaran disimpan dalam file JSON, sehingga dapat dipertahankan meskipun aplikasi ditutup.
+![preview](https://user-images.githubusercontent.com/yourusername/yourimage.png) <!-- (Opsional: screenshot app jika ada) -->
 
-# Fitur Utama
+## ✨ Fitur
 
-1. Menambahkan Pengeluaran: Pengguna dapat memasukkan judul, jumlah, kategori, dan tanggal pengeluaran.
-2. Menghapus Pengeluaran: Pengguna dapat menghapus pengeluaran yang telah dicatat.
-3. Filter Berdasarkan Bulan: Pengguna dapat memilih untuk melihat pengeluaran berdasarkan bulan tertentu atau semua pengeluaran.
-4. Visualisasi Data: Aplikasi menampilkan grafik pie yang menunjukkan distribusi pengeluaran berdasarkan kategori.
-5. Notifikasi: Pengguna mendapatkan notifikasi saat pengeluaran ditambahkan atau dihapus, serta saat terjadi kesalahan (Pengembangan)
+- 📅 **Pilih Tanggal**: Tambahkan pengeluaran berdasarkan tanggal.
+- 🧾 **Filter Bulanan**: Lihat pengeluaran berdasarkan bulan tertentu atau seluruh data.
+- 📊 **Pie Chart Dinamis**: Tampilkan distribusi kategori pengeluaran dalam bentuk grafik.
+- 📈 **Progress Bar per Kategori**: Lihat seberapa besar porsi setiap kategori terhadap total pengeluaran.
+- 💾 **Simpan Data Otomatis**: Data disimpan secara lokal dalam file `expenses.json`.
+- ⚠️ **SnackBar Notifikasi**: Menampilkan pesan notifikasi untuk aksi seperti sukses menambahkan, error, atau menghapus data.
+
+## 🖥️ Screenshot
+
+> (Tambahkan tangkapan layar aplikasi Anda di sini jika tersedia.)
+
+## 📦 Instalasi
+
+1. **Clone repositori**
+
+   ```bash
+   git clone https://github.com/yourusername/expense-tracker-flet.git
+   cd expense-tracker-flet
+   ```
+
+2. **Buat environment dan install dependencies**
+
+   ```bash
+   python -m venv env
+   source env/bin/activate   # Windows: env\Scripts\activate
+   pip install flet
+   ```
+
+3. **Jalankan aplikasi**
+
+   ```bash
+   python main.py
+   ```
+
+## 🧠 Teknologi yang Digunakan
+
+- [Python 3.10+](https://www.python.org/)
+- [Flet](https://flet.dev/): UI framework berbasis Flutter untuk Python
+- JSON (untuk penyimpanan data lokal)
+
+## 📁 Struktur File
+
+```
+expense-tracker-flet/
+│
+├── main.py               # File utama aplikasi
+├── expenses.json         # File penyimpanan data lokal (akan dibuat otomatis)
+└── README.md             # Dokumentasi proyek
+```
+
+## 🛠️ Todo / Pengembangan Selanjutnya
+
+- [ ] Fitur edit pengeluaran
+- [ ] Export data ke CSV
+- [ ] Sinkronisasi dengan penyimpanan cloud (Google Drive, Firebase, dll)
+- [ ] Mode statistik mingguan / tahunan
+
+## 📃 Lisensi
+
+Proyek ini berlisensi di bawah [MIT License](LICENSE).
+
+---
+
+Jika Anda ingin saya tambahkan **badge**, **GIF demo**, atau **logo khusus**, beri tahu saya.
